@@ -7,28 +7,36 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
+    <main id="postech">
         <div id="topo">
             <h1>postech - fullstack</h1>
             <h3>Desafio aula inaugural</h3>        
         </div>
         <div id="formulario">
-            <h2>Informações do grupo</h2>
-            <form id="form">
-                <label for="a1">Nome</label>
-                <input id="a1" name="a1" type="text" />
-                <label for="a2">Nome</label>
-                <input id="a2" name="a2" type="text" />
-                <label for="a3">Nome</label>
-                <input id="a3" name="a3" type="text" />
-                <label for="a4">Nome</label>
-                <input id="a4" name="a4" type="text" />
-                <label for="a5">Nome</label>
-                <input id="a5" name="a5" type="text" />
-                <label for="history">História do grupo</label>
-                <textarea id="history"></textarea>
-                <button type="button" onclick="submeterFormulario()">Enviar</button>         
-            </form>
+            <div id="wrapper">
+                <div id="informacoes">
+                    <h2 id="form-titulo-div"><span id="form-titulo">Informações do grupo</span></h2>
+                    <hr class="separador">
+                    <form id="form">
+                        <label class="titulo" for="a1">Nome</label>
+                        <input id="a1" name="a1" type="text" />
+                        <label class="titulo" for="a2">Nome</label>
+                        <input id="a2" name="a2" type="text" />
+                        <label class="titulo" for="a3">Nome</label>
+                        <input id="a3" name="a3" type="text" />
+                        <label class="titulo" for="a4">Nome</label>
+                        <input id="a4" name="a4" type="text" />
+                        <label class="titulo" for="a5">Nome</label>
+                        <input id="a5" name="a5" type="text" />
+                        <label class="titulo" for="history">História do grupo</label>
+                        <textarea id="history"></textarea>
+                    </form>
+                    <div id="down" class="rectangle">
+                        <hr class="separador">
+                        <button id="botao" type="button" onclick="submeterFormulario()"><span id="enviar">Enviar</span></button>         
+                    </div>
+                </div>
+            </div>
         </div>
         <div id="rectangle"></div>
     </main>

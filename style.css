@@ -2,3 +2,89 @@
     margin: 0;
     padding: 0;
 }
+
+/* POSTECH */
+#postech {
+    background: #ECECEC;
+}
+
+/* Rectangle */
+#rectangle {
+    width: 100%;
+    height: 10em;
+    background: #121214;
+}
+
+
+/* Formulário */
+#formulario {
+    display: flex;
+}
+
+/* Botão */
+#botao {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 40px;
+    gap: 10px;
+
+    position: absolute;
+    width: 608px;
+    height: 56px;
+    left: 416px;
+    top: 1284px;
+
+    background: #DB1B1B;
+    border-radius: 8px;
+
+}
+
+/* Enviar */
+#enviar {
+    width: 48px;
+    height: 26px;
+
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+    color: #FFFFFF;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
+}
+
+/* Wrapper */
+#wrapper {
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   
+    background: #FAFAFC;
+    border-radius: 8px 8px 0px 0px;
+}
+
+/* Informações do Evento */
+#informacoes {
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+
+label {
+    display: flex;
+}
